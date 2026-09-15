@@ -1,4 +1,4 @@
-# Solange EYAGA NDEME — Cybersecurity Portfolio
+# Solange EYAGA NDEME - Cybersecurity Portfolio
 
 Personal cybersecurity portfolio built with HTML, CSS and vanilla JavaScript.
 
