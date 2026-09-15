@@ -10,6 +10,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+<style>
+.repo-section{margin-top:28px;border-top:1px solid var(--line);padding-top:45px}
+.repo-header{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:20px}
+.repo-header h3{font-size:30px;margin:8px 0}
+.repo-header p{color:var(--muted);font-size:13px}
+.repo-button{border:1px solid var(--line);border-radius:999px;padding:10px 15px;font-size:11px;font-weight:700;white-space:nowrap}
+.repo-button:hover{border-color:rgba(155,124,255,.5);background:rgba(155,124,255,.07)}
+.repo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.repo-card{display:grid;grid-template-columns:40px 1fr 22px;align-items:start;gap:13px;padding:19px;border:1px solid var(--line);border-radius:17px;background:rgba(255,255,255,.018);transition:.25s}
+.repo-card:hover{transform:translateY(-3px);border-color:rgba(155,124,255,.3);background:rgba(155,124,255,.045)}
+.repo-icon{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;background:rgba(155,124,255,.09);color:#c9baff;font:700 11px "Space Grotesk"}
+.repo-card small{font-size:8px;letter-spacing:1.2px;color:var(--purple);font-weight:700}
+.repo-card h4{font:600 15px "Space Grotesk";margin:5px 0}
+.repo-card p{color:var(--muted);font-size:11px;line-height:1.55}
+.repo-card b{color:#777d97;font-size:18px}
+.repo-card:hover b{color:#fff}
+@media(max-width:700px){.repo-grid{grid-template-columns:1fr}.repo-header{align-items:start;flex-direction:column}}
+</style>
 </head>
 <body>
   <div class="cursor-glow"></div>
@@ -167,7 +185,51 @@
           <div class="project-index">06</div><div class="project-main"><div class="project-label">BUSINESS SECURITY</div><h3>Microfinance Security Framework</h3><p>Security and risk considerations for a microfinance organization, covering assets, threats, controls, governance and resilience.</p><div class="chips"><span>Risk</span><span>Business Impact</span><span>Resilience</span></div></div><div class="project-arrow">↗</div>
         </article>
       </div>
-      <div class="github-note reveal"><span>⌘</span><p>More technical work and documentation will be published progressively on GitHub.</p><a href="https://github.com/" target="_blank" rel="noopener">View GitHub ↗</a></div>
+      <div class="github-note reveal"><span>⌘</span><p>My complete project repository contains academic and cybersecurity work across governance, IAM, standards, pentesting and secure information systems.</p><a href="https://github.com/solange2510/Projects" target="_blank" rel="noopener">Explore Projects ↗</a></div>
+
+      <div class="repo-section reveal">
+        <div class="repo-header">
+          <div>
+            <span class="project-label">GITHUB PROJECT REPOSITORY</span>
+            <h3>My cybersecurity work</h3>
+            <p>Selected project areas currently published in my <strong>Projects</strong> repository.</p>
+          </div>
+          <a class="repo-button" href="https://github.com/solange2510/Projects" target="_blank" rel="noopener">Open repository ↗</a>
+        </div>
+
+        <div class="repo-grid">
+          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Communication%20Professionnelle" target="_blank" rel="noopener">
+            <span class="repo-icon">✦</span><div><small>01 · PROFESSIONAL SKILLS</small><h4>Communication Professionnelle</h4><p>Professional communication work and deliverables.</p></div><b>↗</b>
+          </a>
+          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Gestion%20d'un%20projet%20de%20sécurité" target="_blank" rel="noopener">
+            <span class="repo-icon">◈</span><div><small>02 · SECURITY PROJECT MANAGEMENT</small><h4>Gestion d'un projet de sécurité</h4><p>Project management in a cybersecurity context.</p></div><b>↗</b>
+          </a>
+          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Gouvernance%20des%20infrastructures%20systèmes%20et%20réseaux" target="_blank" rel="noopener">
+            <span class="repo-icon">◇</span><div><small>03 · GOVERNANCE</small><h4>Gouvernance des infrastructures systèmes et réseaux</h4><p>Governance of systems and network infrastructures.</p></div><b>↗</b>
+          </a>
+          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/IAM" target="_blank" rel="noopener">
+            <span class="repo-icon">⌁</span><div><small>04 · IDENTITY & ACCESS</small><h4>IAM</h4><p>Identity and Access Management work.</p></div><b>↗</b>
+          </a>
+          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Normes%20et%20Standard" target="_blank" rel="noopener">
+            <span class="repo-icon">◎</span><div><small>05 · STANDARDS</small><h4>Normes et Standard</h4><p>Cybersecurity standards and normative work.</p></div><b>↗</b>
+          </a>
+          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Pentest" target="_blank" rel="noopener">
+            <span class="repo-icon">⌘</span><div><small>06 · OFFENSIVE SECURITY</small><h4>Pentest</h4><p>Penetration testing work and security assessment.</p></div><b>↗</b>
+          </a>
+          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Politique%20de%20sécurité%20des%20systèmes%20d'information" target="_blank" rel="noopener">
+            <span class="repo-icon">▣</span><div><small>07 · SECURITY GOVERNANCE</small><h4>Politique de sécurité des systèmes d'information</h4><p>Information security policy work.</p></div><b>↗</b>
+          </a>
+          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Projet%20de%20Sécurisation%20d'un%20SI" target="_blank" rel="noopener">
+            <span class="repo-icon">⬡</span><div><small>08 · INFORMATION SYSTEM SECURITY</small><h4>Projet de Sécurisation d'un SI</h4><p>Project focused on securing an information system.</p></div><b>↗</b>
+          </a>
+          <a class="repo-card" href="https://github.com/solange2510/Projects/blob/main/Day-1-Architecture_se%CC%81curise%CC%81e.pdf" target="_blank" rel="noopener">
+            <span class="repo-icon">PDF</span><div><small>09 · ARCHITECTURE</small><h4>Architecture sécurisée</h4><p>Day-1 secure architecture document.</p></div><b>↗</b>
+          </a>
+          <a class="repo-card" href="https://github.com/solange2510/Projects/blob/main/Developpement%20Sécurisé.pdf" target="_blank" rel="noopener">
+            <span class="repo-icon">PDF</span><div><small>10 · SECURE DEVELOPMENT</small><h4>Développement Sécurisé</h4><p>Secure development document.</p></div><b>↗</b>
+          </a>
+        </div>
+      </div>
     </section>
 
     <section id="certifications" class="section credentials">
