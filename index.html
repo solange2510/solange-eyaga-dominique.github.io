@@ -28,6 +28,13 @@
 .repo-card:hover b{color:#fff}
 @media(max-width:700px){.repo-grid{grid-template-columns:1fr}.repo-header{align-items:start;flex-direction:column}}
 </style>
+<style>
+.repo-overview{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 14px}
+.repo-overview>div{border:1px solid var(--line);border-radius:15px;padding:15px;background:rgba(255,255,255,.018)}
+.repo-overview strong{display:block;font:700 24px "Space Grotesk";color:#e8e4ff}
+.repo-overview span{display:block;margin-top:3px;color:var(--muted);font-size:9px;line-height:1.4;text-transform:uppercase;letter-spacing:.7px}
+@media(max-width:700px){.repo-overview{grid-template-columns:repeat(2,1fr)}}
+</style>
 </head>
 <body>
   <div class="cursor-glow"></div>
@@ -192,41 +199,48 @@
           <div>
             <span class="project-label">GITHUB PROJECT REPOSITORY</span>
             <h3>My cybersecurity work</h3>
-            <p>Selected project areas currently published in my <strong>Projects</strong> repository.</p>
+            <p>Public GitHub repository · <strong>10 project/document entries</strong> currently visible on the main branch.</p>
           </div>
           <a class="repo-button" href="https://github.com/solange2510/Projects" target="_blank" rel="noopener">Open repository ↗</a>
         </div>
 
+        <div class="repo-overview">
+          <div><strong>10</strong><span>project / document entries</span></div>
+          <div><strong>8</strong><span>cybersecurity project areas</span></div>
+          <div><strong>2</strong><span>security PDF deliverables</span></div>
+          <div><strong>2</strong><span>commits visible</span></div>
+        </div>
+
         <div class="repo-grid">
           <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Communication%20Professionnelle" target="_blank" rel="noopener">
-            <span class="repo-icon">✦</span><div><small>01 · PROFESSIONAL SKILLS</small><h4>Communication Professionnelle</h4><p>Professional communication work and deliverables.</p></div><b>↗</b>
+            <span class="repo-icon">✦</span><div><small>01 · PROFESSIONAL SKILLS</small><h4>Communication Professionnelle</h4><p>Professional communication exercises and deliverables published in the repository.</p></div><b>↗</b>
           </a>
           <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Gestion%20d'un%20projet%20de%20sécurité" target="_blank" rel="noopener">
-            <span class="repo-icon">◈</span><div><small>02 · SECURITY PROJECT MANAGEMENT</small><h4>Gestion d'un projet de sécurité</h4><p>Project management in a cybersecurity context.</p></div><b>↗</b>
+            <span class="repo-icon">◈</span><div><small>02 · SECURITY PROJECT MANAGEMENT</small><h4>Gestion d'un projet de sécurité</h4><p>Work focused on managing a cybersecurity project, from organization to security considerations.</p></div><b>↗</b>
           </a>
           <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Gouvernance%20des%20infrastructures%20systèmes%20et%20réseaux" target="_blank" rel="noopener">
-            <span class="repo-icon">◇</span><div><small>03 · GOVERNANCE</small><h4>Gouvernance des infrastructures systèmes et réseaux</h4><p>Governance of systems and network infrastructures.</p></div><b>↗</b>
+            <span class="repo-icon">◇</span><div><small>03 · GOVERNANCE</small><h4>Gouvernance des infrastructures systèmes et réseaux</h4><p>Work focused on governance of systems and network infrastructures.</p></div><b>↗</b>
           </a>
           <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/IAM" target="_blank" rel="noopener">
-            <span class="repo-icon">⌁</span><div><small>04 · IDENTITY & ACCESS</small><h4>IAM</h4><p>Identity and Access Management work.</p></div><b>↗</b>
+            <span class="repo-icon">⌁</span><div><small>04 · IDENTITY & ACCESS</small><h4>IAM</h4><p>Identity and Access Management (IAM) work and related security considerations.</p></div><b>↗</b>
           </a>
           <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Normes%20et%20Standard" target="_blank" rel="noopener">
-            <span class="repo-icon">◎</span><div><small>05 · STANDARDS</small><h4>Normes et Standard</h4><p>Cybersecurity standards and normative work.</p></div><b>↗</b>
+            <span class="repo-icon">◎</span><div><small>05 · STANDARDS</small><h4>Normes et Standard</h4><p>Work dedicated to cybersecurity norms, standards and their application.</p></div><b>↗</b>
           </a>
           <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Pentest" target="_blank" rel="noopener">
-            <span class="repo-icon">⌘</span><div><small>06 · OFFENSIVE SECURITY</small><h4>Pentest</h4><p>Penetration testing work and security assessment.</p></div><b>↗</b>
+            <span class="repo-icon">⌘</span><div><small>06 · OFFENSIVE SECURITY</small><h4>Pentest</h4><p>Penetration testing and security assessment work.</p></div><b>↗</b>
           </a>
           <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Politique%20de%20sécurité%20des%20systèmes%20d'information" target="_blank" rel="noopener">
-            <span class="repo-icon">▣</span><div><small>07 · SECURITY GOVERNANCE</small><h4>Politique de sécurité des systèmes d'information</h4><p>Information security policy work.</p></div><b>↗</b>
+            <span class="repo-icon">▣</span><div><small>07 · SECURITY GOVERNANCE</small><h4>Politique de sécurité des systèmes d'information</h4><p>Information Security Policy (PSSI) work and governance considerations.</p></div><b>↗</b>
           </a>
           <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Projet%20de%20Sécurisation%20d'un%20SI" target="_blank" rel="noopener">
-            <span class="repo-icon">⬡</span><div><small>08 · INFORMATION SYSTEM SECURITY</small><h4>Projet de Sécurisation d'un SI</h4><p>Project focused on securing an information system.</p></div><b>↗</b>
+            <span class="repo-icon">⬡</span><div><small>08 · INFORMATION SYSTEM SECURITY</small><h4>Projet de Sécurisation d'un SI</h4><p>Project dedicated to securing an information system (SI).</p></div><b>↗</b>
           </a>
           <a class="repo-card" href="https://github.com/solange2510/Projects/blob/main/Day-1-Architecture_se%CC%81curise%CC%81e.pdf" target="_blank" rel="noopener">
-            <span class="repo-icon">PDF</span><div><small>09 · ARCHITECTURE</small><h4>Architecture sécurisée</h4><p>Day-1 secure architecture document.</p></div><b>↗</b>
+            <span class="repo-icon">PDF</span><div><small>09 · ARCHITECTURE</small><h4>Architecture sécurisée</h4><p>Security architecture deliverable available as a PDF in the repository.</p></div><b>↗</b>
           </a>
           <a class="repo-card" href="https://github.com/solange2510/Projects/blob/main/Developpement%20Sécurisé.pdf" target="_blank" rel="noopener">
-            <span class="repo-icon">PDF</span><div><small>10 · SECURE DEVELOPMENT</small><h4>Développement Sécurisé</h4><p>Secure development document.</p></div><b>↗</b>
+            <span class="repo-icon">PDF</span><div><small>10 · SECURE DEVELOPMENT</small><h4>Développement Sécurisé</h4><p>Secure development deliverable available as a PDF in the repository.</p></div><b>↗</b>
           </a>
         </div>
       </div>
