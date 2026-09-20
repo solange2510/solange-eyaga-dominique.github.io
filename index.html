@@ -10,31 +10,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-<style>
-.repo-section{margin-top:28px;border-top:1px solid var(--line);padding-top:45px}
-.repo-header{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:20px}
-.repo-header h3{font-size:30px;margin:8px 0}
-.repo-header p{color:var(--muted);font-size:13px}
-.repo-button{border:1px solid var(--line);border-radius:999px;padding:10px 15px;font-size:11px;font-weight:700;white-space:nowrap}
-.repo-button:hover{border-color:rgba(155,124,255,.5);background:rgba(155,124,255,.07)}
-.repo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
-.repo-card{display:grid;grid-template-columns:40px 1fr 22px;align-items:start;gap:13px;padding:19px;border:1px solid var(--line);border-radius:17px;background:rgba(255,255,255,.018);transition:.25s}
-.repo-card:hover{transform:translateY(-3px);border-color:rgba(155,124,255,.3);background:rgba(155,124,255,.045)}
-.repo-icon{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;background:rgba(155,124,255,.09);color:#c9baff;font:700 11px "Space Grotesk"}
-.repo-card small{font-size:8px;letter-spacing:1.2px;color:var(--purple);font-weight:700}
-.repo-card h4{font:600 15px "Space Grotesk";margin:5px 0}
-.repo-card p{color:var(--muted);font-size:11px;line-height:1.55}
-.repo-card b{color:#777d97;font-size:18px}
-.repo-card:hover b{color:#fff}
-@media(max-width:700px){.repo-grid{grid-template-columns:1fr}.repo-header{align-items:start;flex-direction:column}}
-</style>
-<style>
-.repo-overview{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 14px}
-.repo-overview>div{border:1px solid var(--line);border-radius:15px;padding:15px;background:rgba(255,255,255,.018)}
-.repo-overview strong{display:block;font:700 24px "Space Grotesk";color:#e8e4ff}
-.repo-overview span{display:block;margin-top:3px;color:var(--muted);font-size:9px;line-height:1.4;text-transform:uppercase;letter-spacing:.7px}
-@media(max-width:700px){.repo-overview{grid-template-columns:repeat(2,1fr)}}
-</style>
 </head>
 <body>
   <div class="cursor-glow"></div>
@@ -106,26 +81,42 @@
       </div>
     </section>
 
-    <section id="about" class="section about">
-      <div class="section-heading reveal">
-        <span class="section-number">01</span>
-        <div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Security with<br><em>purpose.</em></h2></div>
-      </div>
-      <div class="about-grid">
-        <div class="about-text reveal">
-          <p class="large">I’m <strong>Solange Dominique EYAGA NDEME</strong>, a cybersecurity professional focused on <strong>Governance, Risk &amp; Compliance (GRC)</strong>.</p>
-          <p>My approach combines technical understanding with governance and risk management. I enjoy translating complex cybersecurity challenges into clear risks, controls, policies and actionable recommendations.</p>
-          <p>I am currently pursuing a <strong>Master in Cybersecurity &amp; Management</strong> at EFREI Paris, while building hands-on experience across security operations, risk analysis, compliance and security frameworks.</p>
-          <div class="signature">Solange <span>✦</span></div>
-        </div>
-        <div class="about-facts reveal delay-1">
-          <div class="fact"><span class="fact-icon">⌁</span><div><small>FOCUS</small><strong>Cybersecurity GRC</strong></div></div>
-          <div class="fact"><span class="fact-icon">◈</span><div><small>FRAMEWORKS</small><strong>ISO 27001 · EBIOS RM</strong></div></div>
-          <div class="fact"><span class="fact-icon">◉</span><div><small>SECURITY</small><strong>SIEM · Risk · Audit</strong></div></div>
-          <div class="fact"><span class="fact-icon">✦</span><div><small>INTERESTS</small><strong>Resilience · Compliance</strong></div></div>
-        </div>
-      </div>
-    </section>
+<section id="about" class="section about">
+  <div class="section-heading reveal">
+    <span class="section-number">01</span>
+    <div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Security with<br><em>purpose.</em></h2></div>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-text reveal">
+
+      <p class="large">
+        <strong>I’m Solange Dominique EYAGA NDEME</strong>, a computer engineer specializing in cybersecurity, with a particular interest in <strong>governance, risk management and compliance (GRC)</strong>.
+      </p>
+
+      <p>
+        My background has allowed me to build a strong technical foundation in information systems, networking, software development, Cloud and security. Through my experiences at <strong>Camtel, ENEO, Tekno-Family and Rotation Trans Logistics</strong>, I gradually focused my career on cybersecurity, with a particular interest in governance and risk management.
+      </p>
+
+      <p>
+        I am currently pursuing a <strong>Master’s degree in Cybersecurity &amp; Management at EFREI Paris</strong>, while developing my expertise in <strong>ISO 27001, EBIOS Risk Manager, GDPR, NIS2, DORA, auditing and risk management</strong>. My hands-on experience with SIEM, particularly <strong>FortiSIEM</strong>, also gives me a practical understanding of security operations.
+      </p>
+
+      <p>
+        I enjoy connecting <strong>technical challenges, risks and business needs</strong> to turn cybersecurity issues into concrete actions: analyzing, structuring, securing and supporting organizations in their security journey.
+      </p>
+
+      <div class="signature">Solange <span>✦</span></div>
+    </div>
+
+    <div class="about-facts reveal delay-1">
+      <div class="fact"><span class="fact-icon">⌁</span><div><small>FOCUS</small><strong>Cybersecurity GRC</strong></div></div>
+      <div class="fact"><span class="fact-icon">◈</span><div><small>FRAMEWORKS</small><strong>ISO 27001 · EBIOS RM</strong></div></div>
+      <div class="fact"><span class="fact-icon">◉</span><div><small>SECURITY</small><strong>SIEM · Risk · Audit</strong></div></div>
+      <div class="fact"><span class="fact-icon">✦</span><div><small>INTERESTS</small><strong>Resilience · Compliance</strong></div></div>
+    </div>
+  </div>
+</section>
 
     <section id="skills" class="section skills">
       <div class="section-heading reveal">
@@ -192,58 +183,7 @@
           <div class="project-index">06</div><div class="project-main"><div class="project-label">BUSINESS SECURITY</div><h3>Microfinance Security Framework</h3><p>Security and risk considerations for a microfinance organization, covering assets, threats, controls, governance and resilience.</p><div class="chips"><span>Risk</span><span>Business Impact</span><span>Resilience</span></div></div><div class="project-arrow">↗</div>
         </article>
       </div>
-      <div class="github-note reveal"><span>⌘</span><p>My complete project repository contains academic and cybersecurity work across governance, IAM, standards, pentesting and secure information systems.</p><a href="https://github.com/solange2510/Projects" target="_blank" rel="noopener">Explore Projects ↗</a></div>
-
-      <div class="repo-section reveal">
-        <div class="repo-header">
-          <div>
-            <span class="project-label">GITHUB PROJECT REPOSITORY</span>
-            <h3>My cybersecurity work</h3>
-            <p>Public GitHub repository · <strong>10 project/document entries</strong> currently visible on the main branch.</p>
-          </div>
-          <a class="repo-button" href="https://github.com/solange2510/Projects" target="_blank" rel="noopener">Open repository ↗</a>
-        </div>
-
-        <div class="repo-overview">
-          <div><strong>10</strong><span>project / document entries</span></div>
-          <div><strong>8</strong><span>cybersecurity project areas</span></div>
-          <div><strong>2</strong><span>security PDF deliverables</span></div>
-          <div><strong>2</strong><span>commits visible</span></div>
-        </div>
-
-        <div class="repo-grid">
-          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Communication%20Professionnelle" target="_blank" rel="noopener">
-            <span class="repo-icon">✦</span><div><small>01 · PROFESSIONAL SKILLS</small><h4>Communication Professionnelle</h4><p>Professional communication exercises and deliverables published in the repository.</p></div><b>↗</b>
-          </a>
-          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Gestion%20d'un%20projet%20de%20sécurité" target="_blank" rel="noopener">
-            <span class="repo-icon">◈</span><div><small>02 · SECURITY PROJECT MANAGEMENT</small><h4>Gestion d'un projet de sécurité</h4><p>Work focused on managing a cybersecurity project, from organization to security considerations.</p></div><b>↗</b>
-          </a>
-          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Gouvernance%20des%20infrastructures%20systèmes%20et%20réseaux" target="_blank" rel="noopener">
-            <span class="repo-icon">◇</span><div><small>03 · GOVERNANCE</small><h4>Gouvernance des infrastructures systèmes et réseaux</h4><p>Work focused on governance of systems and network infrastructures.</p></div><b>↗</b>
-          </a>
-          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/IAM" target="_blank" rel="noopener">
-            <span class="repo-icon">⌁</span><div><small>04 · IDENTITY & ACCESS</small><h4>IAM</h4><p>Identity and Access Management (IAM) work and related security considerations.</p></div><b>↗</b>
-          </a>
-          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Normes%20et%20Standard" target="_blank" rel="noopener">
-            <span class="repo-icon">◎</span><div><small>05 · STANDARDS</small><h4>Normes et Standard</h4><p>Work dedicated to cybersecurity norms, standards and their application.</p></div><b>↗</b>
-          </a>
-          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Pentest" target="_blank" rel="noopener">
-            <span class="repo-icon">⌘</span><div><small>06 · OFFENSIVE SECURITY</small><h4>Pentest</h4><p>Penetration testing and security assessment work.</p></div><b>↗</b>
-          </a>
-          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Politique%20de%20sécurité%20des%20systèmes%20d'information" target="_blank" rel="noopener">
-            <span class="repo-icon">▣</span><div><small>07 · SECURITY GOVERNANCE</small><h4>Politique de sécurité des systèmes d'information</h4><p>Information Security Policy (PSSI) work and governance considerations.</p></div><b>↗</b>
-          </a>
-          <a class="repo-card" href="https://github.com/solange2510/Projects/tree/main/Projet%20de%20Sécurisation%20d'un%20SI" target="_blank" rel="noopener">
-            <span class="repo-icon">⬡</span><div><small>08 · INFORMATION SYSTEM SECURITY</small><h4>Projet de Sécurisation d'un SI</h4><p>Project dedicated to securing an information system (SI).</p></div><b>↗</b>
-          </a>
-          <a class="repo-card" href="https://github.com/solange2510/Projects/blob/main/Day-1-Architecture_se%CC%81curise%CC%81e.pdf" target="_blank" rel="noopener">
-            <span class="repo-icon">PDF</span><div><small>09 · ARCHITECTURE</small><h4>Architecture sécurisée</h4><p>Security architecture deliverable available as a PDF in the repository.</p></div><b>↗</b>
-          </a>
-          <a class="repo-card" href="https://github.com/solange2510/Projects/blob/main/Developpement%20Sécurisé.pdf" target="_blank" rel="noopener">
-            <span class="repo-icon">PDF</span><div><small>10 · SECURE DEVELOPMENT</small><h4>Développement Sécurisé</h4><p>Secure development deliverable available as a PDF in the repository.</p></div><b>↗</b>
-          </a>
-        </div>
-      </div>
+      <div class="github-note reveal"><span>⌘</span><p>More technical work and documentation will be published progressively on GitHub.</p><a href="https://github.com/" target="_blank" rel="noopener">View GitHub ↗</a></div>
     </section>
 
     <section id="certifications" class="section credentials">
@@ -291,10 +231,10 @@
         <p class="eyebrow">LET'S CONNECT</p>
         <h2>Have a security<br><em>challenge?</em></h2>
         <p class="contact-copy">I’m always open to discussing cybersecurity, GRC opportunities, projects, collaboration or simply connecting with people passionate about security.</p>
-        <a class="email-link" href="mailto:dominikeyaga@gmail.com">dominikeyaga@gmail.com <span>↗</span></a>
+        <a class="email-link" href="mailto:YOUR.EMAIL@example.com">YOUR.EMAIL@example.com <span>↗</span></a>
         <div class="socials">
-          <a href="https://www.linkedin.com/in/dominique-eyaga " target="_blank" rel="noopener">LinkedIn ↗</a>
-          <a href="https://github.com/solange2510" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
         </div>
       </div>
       <div class="contact-decoration"><span>SECURE</span><span>BUILD</span><span>GROW</span></div>
